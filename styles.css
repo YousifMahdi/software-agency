@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 148px;
+}
+
+.nav__links {
+    display: flex;
+}
+
+.logo__img {
+    filter: invert(1);
+    height: 42px;
+    width: 141px;
+}
