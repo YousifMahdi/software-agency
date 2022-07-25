@@ -84,10 +84,14 @@ nav, main {
     color: #B5B2CD;
 }
 
+.sign__up {
+    display: flex;
+}
+
 .email {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 0px;
     padding-left: 15px;
-    width: 100%;
+    width: 50%;
 }
