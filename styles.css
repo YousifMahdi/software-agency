@@ -9,6 +9,7 @@
 
 body {
     background-color: #1A3049;
+    height: 100vh;
 }
 
 nav, main {
