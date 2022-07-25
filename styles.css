@@ -94,4 +94,6 @@ nav, main {
     padding-right: 0px;
     padding-left: 15px;
     width: 50%;
+    border: none;
+    border-radius: 10px;
 }
