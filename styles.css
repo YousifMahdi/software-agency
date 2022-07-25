@@ -61,12 +61,13 @@ nav, main {
 }
 
 .login:hover {
-    background-color: #7567E8;
+    background-color: #216DFC;
 }
 
 .main__row {
     display: flex;
     justify-content: space-around;
+    margin-top: 150px;
 }
 
 .main__left--section {
@@ -84,6 +85,10 @@ nav, main {
     color: #B5B2CD;
 }
 
+.header, .desc, .sign__up, .create__acc {
+    margin-top: 32px;
+}
+
 .sign__up {
     display: flex;
 }
@@ -96,6 +101,8 @@ nav, main {
     width: 60%;
     border: none;
     border-radius: 10px;
+    color: #B5B2CD;
+    background-color: #292452;
 }
 
 .demo__btn {
@@ -104,5 +111,11 @@ nav, main {
     width: 30%;
     margin-left: 10px;
     color: #fff;
-    background-color: #292452;
+    background-color: #216DFC;
+}
+
+.create__acc {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
 }
