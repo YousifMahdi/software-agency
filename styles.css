@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #1A3049;
 }
 
 nav {
+    background-color: #1A3049;
+    width: 100%;
+}
+
+.nav__container {
     display: flex;
     justify-content: space-between;
-    margin: 24px 500px;
+    margin: 24px 300px;
 }
 
 .nav__links {
@@ -17,8 +29,9 @@ nav {
 
 .nav__link {
     margin-right: 16px;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
+    color: #fff;
 }
 
 .login__btn {
@@ -34,7 +47,6 @@ nav {
 
 .logo__img {
     margin-top: 10px;
-    filter: invert(1);
     height: 42px;
     width: 141px;
 }
