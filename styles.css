@@ -7,14 +7,33 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 24px 148px;
+    margin: 24px 500px;
 }
 
 .nav__links {
     display: flex;
+    margin-top: 10px;
+}
+
+.nav__link {
+    margin-right: 16px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login__btn {
+    margin-top: 4px;
+}
+
+.login {
+    border: none;
+    border-radius: 10px;
+    margin-left: 16px;
+    padding: 10px 24px;
 }
 
 .logo__img {
+    margin-top: 10px;
     filter: invert(1);
     height: 42px;
     width: 141px;
